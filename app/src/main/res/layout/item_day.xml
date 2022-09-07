@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintItemDay"
+    style="@style/Widget.AppCompat.ActionButton"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/textViewDay"
+        style="@style/ShapeAppearanceOverlay.Material3.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:inputType="date"
+        android:paddingTop="3dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#FFFFFF"
+        app:icon="@drawable/ic_diary"
+        app:iconPadding="20dp"
+        app:iconSize="25dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#000000" />
+</androidx.constraintlayout.widget.ConstraintLayout>
