@@ -87,6 +87,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/45f0c6988cb82917ddbb34e1bde3f2c2/transformed/annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ed3133b475638d6996539c598bb8ef39/transformed/constraintlayout-2.1.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c94a022222a42dec7d9e3bffb0d75f52/transformed/SmartColorPicker-1.0.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/ce2c49f44c47cb59f1ba4bca5240d2b4/transformed/lottie-3.7.2-api.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
@@ -210,6 +211,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.4@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.novatien:SmartColorPicker:1.0.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.airbnb.android:lottie:3.7.2@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Week3.app.main" />
 </module>

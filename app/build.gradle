@@ -50,4 +50,5 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.2.1")
     implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
     implementation 'com.github.novatien:SmartColorPicker:1.0.2'
+    implementation "com.airbnb.android:lottie:3.7.2"
 }
