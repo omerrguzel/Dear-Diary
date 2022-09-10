@@ -23,7 +23,7 @@
         android:layout_height="70dp"
         android:fontFamily="@font/allura"
         android:gravity="center"
-        android:text="Dear Diary,"
+        android:text="@string/dear_diary"
         android:textColor="#090909"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -5,11 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.patika.week3.databinding.ItemDayBinding
 
-class DayAdapter(var day: List<Day>) : RecyclerView.Adapter<DayAdapter.DayViewHolder>() {
+class DayAdapter(private var day: List<Day>) : RecyclerView.Adapter<DayAdapter.DayViewHolder>() {
 
 
-    inner class DayViewHolder(val binding: ItemDayBinding) : RecyclerView.ViewHolder(binding.root){
-    }
+    inner class DayViewHolder(val binding: ItemDayBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DayViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)

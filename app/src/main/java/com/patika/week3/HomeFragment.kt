@@ -1,7 +1,6 @@
 package com.patika.week3
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,8 +23,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -99,10 +97,4 @@ class HomeFragment : Fragment() {
             Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_dayFragment2)
         }
     }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-    }
-
-
 }

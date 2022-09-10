@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">Week3</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Dear Diary</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dear_diary">Dear Diary,</string>
+    <string name="pick_a_date">Pick A Date</string>
+    <string name="save">Save</string>
+    <string name="how_was_your_day">How was your day?</string>
+    <string name="color_of_the_day">Color Of The Day?</string>
+    <string name="button">Button</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
 </resources>

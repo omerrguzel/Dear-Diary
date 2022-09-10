@@ -1,14 +1,13 @@
 package com.patika.week3
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.patika.week3.databinding.FragmentDayBinding
 import com.patika.week3.databinding.FragmentLoginBinding
 
 
