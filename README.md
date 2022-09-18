@@ -21,7 +21,7 @@
 
 ## About The Project
 
-Dear Diary is a simple application which lets you write daily thoughts/ideas/memories. This project also includes 2 assignments of the 3rd week of Patika-FMSS bootcamp. 
+Dear Diary is a simple application which lets you write daily thoughts/ideas/memories. This project also includes 3rd week assignments of Patika-FMSS bootcamp. 
 
 ## Preview
 
